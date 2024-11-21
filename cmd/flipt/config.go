@@ -10,7 +10,7 @@ import (
 	"github.com/spf13/cobra"
 	"go.flipt.io/flipt/internal/cmd/util"
 	"go.flipt.io/flipt/internal/config"
-	"gopkg.in/yaml.v2"
+	"gopkg.in/yaml.v3"
 )
 
 type initCommand struct {

@@ -22,7 +22,7 @@ import (
 	"go.flipt.io/flipt/internal/oci"
 	"gocloud.dev/blob"
 	"gocloud.dev/blob/memblob"
-	"gopkg.in/yaml.v2"
+	"gopkg.in/yaml.v3"
 )
 
 func TestJSONSchema(t *testing.T) {
